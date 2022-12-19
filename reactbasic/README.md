@@ -1,8 +1,8 @@
 # Install React base
 
-npx create-react-app reactbasic
-cd reactbasic
-npm start
+npx create-react-app reactbasic  
+cd reactbasic  
+npm start  
 
 DELETE unneeded files
 - App.cs
@@ -10,12 +10,12 @@ DELETE unneeded files
 - logo.svg
 - reportWebVitals.js
 
-rm -rf .git
+rm -rf .git  
 
 # Install Axios server
 
-npm install axios
-npm install json-server --save-dev
+npm install axios  
+npm install json-server --save-dev  
 
 > change package.json ->
 
@@ -28,6 +28,6 @@ npm install json-server --save-dev
     "server": "json-server -p3001 --watch db.json"
   },
 ```
-npm run server
+npm run server  
 
 

@@ -33,9 +33,9 @@ console.log(`Server running on port ${PORT}`)
 
 npm start OR node index.js
 
-Open http://localhost:3001 to test
-npm install express
-npm install --save-dev nodemon
+Open http://localhost:3001 to test  
+npm install express  
+npm install --save-dev nodemon  
 
 Change package.json ->
 ```
@@ -50,7 +50,7 @@ Change package.json ->
 }
 ```
 
-npm run dev
+npm run dev  
 > to update: npm update
 > to install to new machine: npm install
 
